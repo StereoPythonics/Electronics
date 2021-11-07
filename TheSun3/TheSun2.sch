@@ -1,0 +1,1072 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Raspberry Pi® Zero W - Hat Template"
+Date "2018-12-28"
+Rev "1.0.8"
+Comp "StudioPieters®"
+Comment1 "https://www.studiopieters.nl"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_FET:2N7002H Q_Power1
+U 1 1 5FFDD975
+P 3400 4850
+F 0 "Q_Power1" V 3649 4850 50  0000 C CNN
+F 1 "2N7002H" V 3740 4850 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3600 4775 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 3400 4850 50  0001 L CNN
+	1    3400 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Raspberry_Pi_2_3 RaspberryPi1
+U 1 1 600227FF
+P 4650 2900
+F 0 "RaspberryPi1" H 4650 4381 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 4650 4290 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 4650 2900 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 4650 2900 50  0001 C CNN
+	1    4650 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 4450 8800 4450
+$Comp
+L Connector:Conn_01x03_Male AIN-4
+U 1 1 600A0403
+P 10700 5150
+F 0 "AIN-4" H 10672 5082 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 10672 5173 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10700 5150 50  0001 C CNN
+F 3 "~" H 10700 5150 50  0001 C CNN
+	1    10700 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male AIN-5
+U 1 1 600AFF8C
+P 10700 4750
+F 0 "AIN-5" H 10672 4682 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 10672 4773 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10700 4750 50  0001 C CNN
+F 3 "~" H 10700 4750 50  0001 C CNN
+	1    10700 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male AIN-6
+U 1 1 600B151D
+P 10700 4350
+F 0 "AIN-6" H 10672 4282 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 10672 4373 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10700 4350 50  0001 C CNN
+F 3 "~" H 10700 4350 50  0001 C CNN
+	1    10700 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male AIN-3
+U 1 1 600B2B28
+P 10700 5550
+F 0 "AIN-3" H 10672 5482 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 10672 5573 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10700 5550 50  0001 C CNN
+F 3 "~" H 10700 5550 50  0001 C CNN
+	1    10700 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male AIN-2
+U 1 1 600B42AA
+P 10700 5900
+F 0 "AIN-2" H 10672 5832 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 10672 5923 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10700 5900 50  0001 C CNN
+F 3 "~" H 10700 5900 50  0001 C CNN
+	1    10700 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male AIN-1
+U 1 1 600B65B8
+P 10700 6300
+F 0 "AIN-1" H 10672 6232 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 10672 6323 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10700 6300 50  0001 C CNN
+F 3 "~" H 10700 6300 50  0001 C CNN
+	1    10700 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male AIN-7
+U 1 1 600B91DB
+P 10700 3950
+F 0 "AIN-7" H 10672 3882 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 10672 3973 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10700 3950 50  0001 C CNN
+F 3 "~" H 10700 3950 50  0001 C CNN
+	1    10700 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male AIN-8
+U 1 1 600BA8BA
+P 10700 3550
+F 0 "AIN-8" H 10672 3482 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 10672 3573 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10700 3550 50  0001 C CNN
+F 3 "~" H 10700 3550 50  0001 C CNN
+	1    10700 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male Fan0
+U 1 1 602BB406
+P 7850 3000
+F 0 "Fan0" H 7822 2932 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 7822 3023 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7850 3000 50  0001 C CNN
+F 3 "~" H 7850 3000 50  0001 C CNN
+	1    7850 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4550 1600 4450 1600
+Wire Wire Line
+	4750 1600 4850 1600
+Connection ~ 4350 4200
+Wire Wire Line
+	4650 4200 4750 4200
+Wire Wire Line
+	4750 4200 4850 4200
+Connection ~ 4750 4200
+Wire Wire Line
+	4850 4200 4950 4200
+Connection ~ 4850 4200
+Wire Wire Line
+	4350 4200 4250 4200
+$Comp
+L Connector_Generic:Conn_02x12_Top_Bottom ATX24-pin1
+U 1 1 603EE6E1
+P 4750 5550
+F 0 "ATX24-pin1" H 4800 4725 50  0000 C CNN
+F 1 "Conn_02x12_Top_Bottom" H 4800 4816 50  0000 C CNN
+F 2 "Barney's Footprints:ATX_24pin" H 4750 5550 50  0001 C CNN
+F 3 "~" H 4750 5550 50  0001 C CNN
+	1    4750 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 604AE937
+P 2300 4950
+F 0 "J4" H 2380 4942 50  0000 L CNN
+F 1 "Conn_01x02" H 2380 4851 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 2300 4950 50  0001 C CNN
+F 3 "~" H 2300 4950 50  0001 C CNN
+	1    2300 4950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 4850 2450 4850
+$Comp
+L Connector:Screw_Terminal_01x06 LightsA2
+U 1 1 601FB2EA
+P 7800 1550
+F 0 "LightsA2" V 7672 1830 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" V 7763 1830 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_6-G-3.81_1x06_P3.81mm_Vertical" H 7800 1550 50  0001 C CNN
+F 3 "~" H 7800 1550 50  0001 C CNN
+	1    7800 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 6102D7AB
+P 2900 7350
+F 0 "#PWR0101" H 2900 7100 50  0001 C CNN
+F 1 "GND" H 2905 7177 50  0000 C CNN
+F 2 "" H 2900 7350 50  0001 C CNN
+F 3 "" H 2900 7350 50  0001 C CNN
+	1    2900 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1600 1100 1450
+Wire Wire Line
+	1100 1350 1100 1100
+$Comp
+L Device:R R7
+U 1 1 612F6B32
+P 1100 950
+F 0 "R7" H 1170 996 50  0000 L CNN
+F 1 "100R" H 1170 905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1030 950 50  0001 C CNN
+F 3 "~" H 1100 950 50  0001 C CNN
+	1    1100 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:QM6006D Q1
+U 1 1 6008ED31
+P 7400 2150
+F 0 "Q1" H 7604 2196 50  0000 L CNN
+F 1 "QM6006D" H 7604 2105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 7600 2075 50  0001 L CIN
+F 3 "http://www.jaolen.com/images/pdf/QM6006D.pdf" H 7400 2150 50  0001 L CNN
+	1    7400 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4950 5050 2    50   Input ~ 0
+12v
+Text GLabel 4950 5150 2    50   Input ~ 0
+12v
+Text GLabel 4950 6600 2    50   Input ~ 0
+12V+
+Text GLabel 1100 800  1    50   Input ~ 0
+12v
+Text GLabel 4450 6600 0    50   Input ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_02x04_Counter_Clockwise ATX-PCI-E1
+U 1 1 6006397D
+P 4750 6800
+F 0 "ATX-PCI-E1" H 4800 6375 50  0000 C CNN
+F 1 "ATX PCI-E Power" H 4800 6466 50  0000 C CNN
+F 2 "Barney's Footprints:Molex_PCI_E_8Pin" H 4750 6800 50  0001 C CNN
+F 3 "~" H 4750 6800 50  0001 C CNN
+	1    4750 6800
+	-1   0    0    1   
+$EndComp
+Text GLabel 4450 6700 0    50   Input ~ 0
+GND
+Text GLabel 4450 6800 0    50   Input ~ 0
+GND
+Text GLabel 4450 6900 0    50   Input ~ 0
+GND
+Text GLabel 4450 5750 0    50   Input ~ 0
+PSUSW
+Text GLabel 4950 5850 2    50   Input ~ 0
+GND
+Text GLabel 4950 5650 2    50   Input ~ 0
+GND
+Text GLabel 4950 5450 2    50   Input ~ 0
+GND
+Text GLabel 4450 5850 0    50   Input ~ 0
+GND
+Text GLabel 4450 5650 0    50   Input ~ 0
+GND
+Text GLabel 4450 5550 0    50   Input ~ 0
+GND
+Text GLabel 4450 5450 0    50   Input ~ 0
+GND
+Text GLabel 4450 4950 0    50   Input ~ 0
+GND
+Text GLabel 5400 5250 2    50   Input ~ 0
+5v_SB
+Text GLabel 4150 4200 0    50   Input ~ 0
+M_GND
+Wire Wire Line
+	4150 4200 4250 4200
+Wire Wire Line
+	4350 4200 4450 4200
+Connection ~ 4250 4200
+Text GLabel 2500 4950 2    50   Input ~ 0
+GND
+Text GLabel 2450 4850 2    50   Input ~ 0
+M_GND
+Text GLabel 4450 1600 0    50   Input ~ 0
+5v_SB
+Text GLabel 4850 1600 2    50   Input ~ 0
+3.3v
+Text GLabel 8550 5650 0    50   Input ~ 0
+3.3v
+Wire Wire Line
+	8550 5650 8800 5650
+Wire Wire Line
+	8800 5650 8800 5550
+Wire Wire Line
+	9100 5550 8800 5550
+Text GLabel 8800 4350 2    50   Input ~ 0
+M_GND
+Text GLabel 10500 3650 0    50   Input ~ 0
+M_GND
+Text GLabel 10500 6400 0    50   Input ~ 0
+M_GND
+Text GLabel 10500 4450 0    50   Input ~ 0
+M_GND
+Text GLabel 10500 4050 0    50   Input ~ 0
+M_GND
+Text GLabel 10500 6000 0    50   Input ~ 0
+M_GND
+Text GLabel 10500 5650 0    50   Input ~ 0
+M_GND
+Text GLabel 10500 5250 0    50   Input ~ 0
+M_GND
+Text GLabel 10500 4850 0    50   Input ~ 0
+M_GND
+Text GLabel 10500 4650 0    50   Input ~ 0
+3.3v
+Text GLabel 10500 5050 0    50   Input ~ 0
+3.3v
+Text GLabel 10500 5450 0    50   Input ~ 0
+3.3v
+Text GLabel 10500 5800 0    50   Input ~ 0
+3.3v
+Text GLabel 10500 6200 0    50   Input ~ 0
+3.3v
+Text GLabel 10500 4250 0    50   Input ~ 0
+3.3v
+Text GLabel 10500 3850 0    50   Input ~ 0
+3.3v
+Text GLabel 10500 3450 0    50   Input ~ 0
+3.3v
+Wire Wire Line
+	8800 4450 8800 4350
+Text GLabel 5450 3100 2    50   Input ~ 0
+CEO1
+Text GLabel 8400 4850 0    50   Input ~ 0
+CEO1
+Text GLabel 5450 3200 2    50   Input ~ 0
+MISO
+Text GLabel 8400 5050 0    50   Input ~ 0
+MISO
+Connection ~ 8800 4450
+Connection ~ 8800 5550
+$Comp
+L Analog_ADC:MCP3008 MCP3008
+U 1 1 5FF67FBD
+P 9000 5050
+F 0 "MCP3008" H 9000 5731 50  0000 C CNN
+F 1 "MCP3008" H 9000 5640 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9100 5150 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" H 9100 5150 50  0001 C CNN
+	1    9000 5050
+	-1   0    0    1   
+$EndComp
+Text GLabel 8400 4950 0    50   Input ~ 0
+MOSI
+Text GLabel 5450 3300 2    50   Input ~ 0
+MOSI
+Text GLabel 5450 3400 2    50   Input ~ 0
+SCLK0
+Text GLabel 8400 5150 0    50   Input ~ 0
+SCLK0
+Wire Wire Line
+	9600 4650 9600 3550
+Wire Wire Line
+	9600 4750 9650 4750
+Wire Wire Line
+	9650 4750 9650 3950
+Wire Wire Line
+	9600 4850 9700 4850
+Wire Wire Line
+	9700 4850 9700 4350
+Wire Wire Line
+	9600 4950 9750 4950
+Wire Wire Line
+	9750 4950 9750 4750
+Wire Wire Line
+	9600 5050 9750 5050
+Wire Wire Line
+	9750 5050 9750 5150
+Wire Wire Line
+	9600 5150 9700 5150
+Wire Wire Line
+	9700 5150 9700 5550
+Wire Wire Line
+	9600 5250 9650 5250
+Wire Wire Line
+	9650 5250 9650 5900
+Wire Wire Line
+	10500 6300 9600 6300
+Text GLabel 3600 4950 2    50   Input ~ 0
+PSUSW
+Text GLabel 3200 4950 0    50   Input ~ 0
+GND
+$Comp
+L Device:R R6
+U 1 1 6018EA62
+P 7100 2000
+F 0 "R6" H 7030 1954 50  0000 R CNN
+F 1 "10K" H 7030 2045 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7030 2000 50  0001 C CNN
+F 3 "~" H 7100 2000 50  0001 C CNN
+	1    7100 2000
+	-1   0    0    1   
+$EndComp
+Text GLabel 6850 1850 1    50   Input ~ 0
+3.3v
+$Comp
+L Transistor_FET:2N7002H 2N7002_3
+U 1 1 6018EA6E
+P 6850 2050
+F 0 "2N7002_3" V 7099 2050 50  0000 C CNN
+F 1 "2N7002H" V 7190 2050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7050 1975 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 6850 2050 50  0001 L CNN
+	1    6850 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6018EA68
+P 6600 2000
+F 0 "R3" H 6530 1954 50  0000 R CNN
+F 1 "10K" H 6530 2045 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6530 2000 50  0001 C CNN
+F 3 "~" H 6600 2000 50  0001 C CNN
+	1    6600 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2150 7050 2150
+Wire Wire Line
+	6650 2150 6600 2150
+Wire Wire Line
+	6600 1850 6850 1850
+Text GLabel 7500 2350 2    50   Input ~ 0
+M_GND
+Wire Wire Line
+	8200 1800 8000 1800
+Wire Wire Line
+	8000 1800 8000 1750
+Wire Wire Line
+	8000 1800 7800 1800
+Wire Wire Line
+	7800 1800 7800 1750
+Connection ~ 8000 1800
+Wire Wire Line
+	7800 1800 7600 1800
+Wire Wire Line
+	7600 1800 7600 1750
+Connection ~ 7800 1800
+Wire Wire Line
+	8100 1750 8100 1850
+Wire Wire Line
+	8100 1850 7900 1850
+Wire Wire Line
+	7500 1850 7500 1950
+Wire Wire Line
+	7700 1750 7700 1850
+Connection ~ 7700 1850
+Wire Wire Line
+	7700 1850 7500 1850
+Wire Wire Line
+	7900 1750 7900 1850
+Connection ~ 7900 1850
+Wire Wire Line
+	7900 1850 7700 1850
+Text GLabel 7150 1800 2    50   Input ~ 0
+5v_SB
+Wire Wire Line
+	7100 1850 7100 1800
+Wire Wire Line
+	7100 1800 7150 1800
+$Comp
+L Connector:Screw_Terminal_01x06 LightsB2
+U 1 1 60F8AAA7
+P 9950 1550
+F 0 "LightsB2" V 9822 1830 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" V 9913 1830 50  0000 L CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_6-G-3.81_1x06_P3.81mm_Vertical" H 9950 1550 50  0001 C CNN
+F 3 "~" H 9950 1550 50  0001 C CNN
+	1    9950 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_FET:QM6006D Q2
+U 1 1 60F8AAAD
+P 9550 2150
+F 0 "Q2" H 9754 2196 50  0000 L CNN
+F 1 "QM6006D" H 9754 2105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 9750 2075 50  0001 L CIN
+F 3 "http://www.jaolen.com/images/pdf/QM6006D.pdf" H 9550 2150 50  0001 L CNN
+	1    9550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 60F8AAB3
+P 9250 2000
+F 0 "R8" H 9180 1954 50  0000 R CNN
+F 1 "10K" H 9180 2045 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 9180 2000 50  0001 C CNN
+F 3 "~" H 9250 2000 50  0001 C CNN
+	1    9250 2000
+	-1   0    0    1   
+$EndComp
+Text GLabel 9000 1850 1    50   Input ~ 0
+3.3v
+$Comp
+L Transistor_FET:2N7002H 2N7002_6
+U 1 1 60F8AABA
+P 9000 2050
+F 0 "2N7002_6" V 9249 2050 50  0000 C CNN
+F 1 "2N7002H" V 9340 2050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9200 1975 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 9000 2050 50  0001 L CNN
+	1    9000 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 60F8AAC0
+P 8750 2000
+F 0 "R5" H 8680 1954 50  0000 R CNN
+F 1 "10K" H 8680 2045 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 8680 2000 50  0001 C CNN
+F 3 "~" H 8750 2000 50  0001 C CNN
+	1    8750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 2150 9200 2150
+Wire Wire Line
+	8800 2150 8750 2150
+Wire Wire Line
+	8750 1850 9000 1850
+Text GLabel 9650 2350 2    50   Input ~ 0
+M_GND
+Wire Wire Line
+	10350 1800 10150 1800
+Wire Wire Line
+	10150 1800 10150 1750
+Wire Wire Line
+	10150 1800 9950 1800
+Wire Wire Line
+	9950 1800 9950 1750
+Connection ~ 10150 1800
+Wire Wire Line
+	9950 1800 9750 1800
+Wire Wire Line
+	9750 1800 9750 1750
+Connection ~ 9950 1800
+Wire Wire Line
+	10250 1750 10250 1850
+Wire Wire Line
+	10250 1850 10050 1850
+Wire Wire Line
+	9650 1850 9650 1950
+Wire Wire Line
+	9850 1750 9850 1850
+Connection ~ 9850 1850
+Wire Wire Line
+	9850 1850 9650 1850
+Wire Wire Line
+	10050 1750 10050 1850
+Connection ~ 10050 1850
+Wire Wire Line
+	10050 1850 9850 1850
+Text GLabel 9300 1800 2    50   Input ~ 0
+5v_SB
+Wire Wire Line
+	9250 1850 9250 1800
+Wire Wire Line
+	9250 1800 9300 1800
+Text GLabel 5450 3600 2    50   Input ~ 0
+PWM0
+Text GLabel 5450 3700 2    50   Input ~ 0
+PWM1
+Text GLabel 6500 2150 0    50   Input ~ 0
+PWM0
+Text GLabel 8650 2150 0    50   Input ~ 0
+PWM1
+Wire Wire Line
+	8750 2150 8650 2150
+Connection ~ 8750 2150
+Wire Wire Line
+	6600 2150 6500 2150
+Connection ~ 6600 2150
+Text GLabel 1100 2000 3    50   Input ~ 0
+M_GND
+$Comp
+L Transistor_FET:2N7002H 2N7002_4
+U 1 1 6106EEA5
+P 1000 1800
+F 0 "2N7002_4" V 1249 1800 50  0000 C CNN
+F 1 "2N7002H" V 1340 1800 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1200 1725 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 1000 1800 50  0001 L CNN
+	1    1000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 611AD64E
+P 900 1350
+F 0 "J1" H 1008 1531 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1008 1440 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 900 1350 50  0001 C CNN
+F 3 "~" H 900 1350 50  0001 C CNN
+	1    900  1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1600 1800 1450
+Wire Wire Line
+	1800 1350 1800 1100
+$Comp
+L Device:R R1
+U 1 1 611C424B
+P 1800 950
+F 0 "R1" H 1870 996 50  0000 L CNN
+F 1 "100R" H 1870 905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1730 950 50  0001 C CNN
+F 3 "~" H 1800 950 50  0001 C CNN
+	1    1800 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 800  1    50   Input ~ 0
+12v
+Text GLabel 1800 2000 3    50   Input ~ 0
+M_GND
+$Comp
+L Transistor_FET:2N7002H 2N7002_1
+U 1 1 611C4253
+P 1700 1800
+F 0 "2N7002_1" V 1949 1800 50  0000 C CNN
+F 1 "2N7002H" V 2040 1800 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1900 1725 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 1700 1800 50  0001 L CNN
+	1    1700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 611C4259
+P 1600 1350
+F 0 "J3" H 1708 1531 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1708 1440 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1600 1350 50  0001 C CNN
+F 3 "~" H 1600 1350 50  0001 C CNN
+	1    1600 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1600 2550 1450
+Wire Wire Line
+	2550 1350 2550 1100
+$Comp
+L Device:R R2
+U 1 1 611C99A4
+P 2550 950
+F 0 "R2" H 2620 996 50  0000 L CNN
+F 1 "100R" H 2620 905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2480 950 50  0001 C CNN
+F 3 "~" H 2550 950 50  0001 C CNN
+	1    2550 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 800  1    50   Input ~ 0
+12v
+Text GLabel 2550 2000 3    50   Input ~ 0
+M_GND
+$Comp
+L Transistor_FET:2N7002H 2N7002_2
+U 1 1 611C99AC
+P 2450 1800
+F 0 "2N7002_2" V 2699 1800 50  0000 C CNN
+F 1 "2N7002H" V 2790 1800 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2650 1725 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 2450 1800 50  0001 L CNN
+	1    2450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 611C99B2
+P 2350 1350
+F 0 "J6" H 2458 1531 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 2458 1440 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2350 1350 50  0001 C CNN
+F 3 "~" H 2350 1350 50  0001 C CNN
+	1    2350 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1600 3300 1450
+Wire Wire Line
+	3300 1350 3300 1100
+$Comp
+L Device:R R4
+U 1 1 611CF3A9
+P 3300 950
+F 0 "R4" H 3370 996 50  0000 L CNN
+F 1 "100R" H 3370 905 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3230 950 50  0001 C CNN
+F 3 "~" H 3300 950 50  0001 C CNN
+	1    3300 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 800  1    50   Input ~ 0
+12v
+Text GLabel 3300 2000 3    50   Input ~ 0
+M_GND
+$Comp
+L Transistor_FET:2N7002H 2N7002_5
+U 1 1 611CF3B1
+P 3200 1800
+F 0 "2N7002_5" V 3449 1800 50  0000 C CNN
+F 1 "2N7002H" V 3540 1800 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3400 1725 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 3200 1800 50  0001 L CNN
+	1    3200 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J8
+U 1 1 611CF3B7
+P 3100 1350
+F 0 "J8" H 3208 1531 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3208 1440 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3100 1350 50  0001 C CNN
+F 3 "~" H 3100 1350 50  0001 C CNN
+	1    3100 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 4650 0    50   Input ~ 0
+PSU_CTL
+Text GLabel 5450 2600 2    50   Input ~ 0
+PSU_CTL
+Text GLabel 1150 3100 3    50   Input ~ 0
+M_GND
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 6122BB74
+P 950 3000
+F 0 "J2" H 1058 3181 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1058 3090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 950 3000 50  0001 C CNN
+F 3 "~" H 950 3000 50  0001 C CNN
+	1    950  3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1900 3100 3    50   Input ~ 0
+M_GND
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 6124D6A7
+P 1700 3000
+F 0 "J5" H 1808 3181 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1808 3090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1700 3000 50  0001 C CNN
+F 3 "~" H 1700 3000 50  0001 C CNN
+	1    1700 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 3100 3    50   Input ~ 0
+M_GND
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 6125198C
+P 2400 3000
+F 0 "J7" H 2508 3181 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 2508 3090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2400 3000 50  0001 C CNN
+F 3 "~" H 2400 3000 50  0001 C CNN
+	1    2400 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 3100 3    50   Input ~ 0
+M_GND
+$Comp
+L Connector:Conn_01x02_Male J9
+U 1 1 61255D4F
+P 3100 3000
+F 0 "J9" H 3208 3181 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3208 3090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3100 3000 50  0001 C CNN
+F 3 "~" H 3100 3000 50  0001 C CNN
+	1    3100 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1150 3000 2    50   Input ~ 0
+cs1
+Text GLabel 1900 3000 2    50   Input ~ 0
+cs2
+Text GLabel 2600 3000 2    50   Input ~ 0
+cs3
+Text GLabel 3300 3000 2    50   Input ~ 0
+cs4
+Text GLabel 800  1800 0    50   Input ~ 0
+csi1
+Text GLabel 1500 1800 0    50   Input ~ 0
+csi2
+Text GLabel 2250 1800 0    50   Input ~ 0
+csi3
+Text GLabel 3000 1800 0    50   Input ~ 0
+csi4
+Text GLabel 3850 2400 0    50   Input ~ 0
+cs1
+Text GLabel 3850 3600 0    50   Input ~ 0
+csi1
+Text GLabel 3850 3100 0    50   Input ~ 0
+cs2
+Text GLabel 3850 3200 0    50   Input ~ 0
+csi2
+Text GLabel 3850 3300 0    50   Input ~ 0
+cs3
+Text GLabel 3850 3400 0    50   Input ~ 0
+csi3
+Text GLabel 5450 2700 2    50   Input ~ 0
+cs4
+Text GLabel 5450 2800 2    50   Input ~ 0
+csi4
+$Comp
+L Transistor_FET:QM6006D Q3
+U 1 1 6014AA39
+P 7350 3400
+F 0 "Q3" H 7554 3446 50  0000 L CNN
+F 1 "QM6006D" H 7554 3355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 7550 3325 50  0001 L CIN
+F 3 "http://www.jaolen.com/images/pdf/QM6006D.pdf" H 7350 3400 50  0001 L CNN
+	1    7350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 6014AA43
+P 7050 3250
+F 0 "R10" H 6980 3204 50  0000 R CNN
+F 1 "10K" H 6980 3295 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6980 3250 50  0001 C CNN
+F 3 "~" H 7050 3250 50  0001 C CNN
+	1    7050 3250
+	-1   0    0    1   
+$EndComp
+Text GLabel 6800 3100 1    50   Input ~ 0
+3.3v
+$Comp
+L Transistor_FET:2N7002H 2N7002_7
+U 1 1 6014AA4E
+P 6800 3300
+F 0 "2N7002_7" V 7049 3300 50  0000 C CNN
+F 1 "2N7002H" V 7140 3300 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7000 3225 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 6800 3300 50  0001 L CNN
+	1    6800 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 6014AA58
+P 6550 3250
+F 0 "R9" H 6480 3204 50  0000 R CNN
+F 1 "10K" H 6480 3295 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6480 3250 50  0001 C CNN
+F 3 "~" H 6550 3250 50  0001 C CNN
+	1    6550 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3400 7000 3400
+Wire Wire Line
+	6600 3400 6550 3400
+Wire Wire Line
+	6550 3100 6800 3100
+Wire Wire Line
+	7150 3400 7050 3400
+Connection ~ 7050 3400
+Text GLabel 7450 3600 2    50   Input ~ 0
+M_GND
+Wire Wire Line
+	7450 3100 7450 3200
+Wire Wire Line
+	7650 3100 7450 3100
+Text GLabel 7100 3050 2    50   Input ~ 0
+5v_SB
+Wire Wire Line
+	7050 3100 7050 3050
+Wire Wire Line
+	7050 3050 7100 3050
+Wire Wire Line
+	6550 3400 6450 3400
+Connection ~ 6550 3400
+Text GLabel 7650 3000 0    50   Input ~ 0
+12v
+Text GLabel 5450 2000 2    50   Input ~ 0
+fan_cont
+Text GLabel 6450 3400 0    50   Input ~ 0
+fan_cont
+$Comp
+L Device:Polyfuse F1
+U 1 1 602ED638
+P 5250 5250
+F 0 "F1" H 5338 5296 50  0000 L CNN
+F 1 "Polyfuse" H 5338 5205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" H 5300 5050 50  0001 L CNN
+F 3 "~" H 5250 5250 50  0001 C CNN
+	1    5250 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 5250 5100 5250
+Text GLabel 4950 6700 2    50   Input ~ 0
+12V+
+Text GLabel 4950 6800 2    50   Input ~ 0
+12V+
+Text GLabel 4950 6900 2    50   Input ~ 0
+12V+
+Text GLabel 8200 1800 2    50   Input ~ 0
+12V+
+Text GLabel 10350 1800 2    50   Input ~ 0
+12V+
+Wire Wire Line
+	4450 4200 4450 4250
+Wire Wire Line
+	4450 4250 4650 4250
+Wire Wire Line
+	4650 4250 4650 4200
+Connection ~ 4450 4200
+Connection ~ 4650 4200
+$Comp
+L Device:R R11
+U 1 1 601E7C59
+P 6550 3800
+F 0 "R11" H 6620 3846 50  0000 L CNN
+F 1 "10K" H 6620 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6480 3800 50  0001 C CNN
+F 3 "~" H 6550 3800 50  0001 C CNN
+	1    6550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 601EF654
+P 6600 2550
+F 0 "R20" H 6670 2596 50  0000 L CNN
+F 1 "10K" H 6670 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 6530 2550 50  0001 C CNN
+F 3 "~" H 6600 2550 50  0001 C CNN
+	1    6600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2400 6600 2150
+Wire Wire Line
+	6550 3400 6550 3650
+Text GLabel 6550 3950 0    50   Input ~ 0
+M_GND
+Text GLabel 6600 2700 0    50   Input ~ 0
+M_GND
+Wire Wire Line
+	9750 5150 10500 5150
+Wire Wire Line
+	9750 4750 10500 4750
+Wire Wire Line
+	9700 5550 10500 5550
+Wire Wire Line
+	9650 5900 10500 5900
+Wire Wire Line
+	9600 5350 9600 6300
+Wire Wire Line
+	9700 4350 10500 4350
+Wire Wire Line
+	9650 3950 10500 3950
+Wire Wire Line
+	9600 3550 10500 3550
+$Comp
+L Connector_Generic:Conn_01x06 J10
+U 1 1 60325ADC
+P 8400 2750
+F 0 "J10" V 8272 3030 50  0000 L CNN
+F 1 "Conn_01x06" V 8363 3030 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 8400 2750 50  0001 C CNN
+F 3 "~" H 8400 2750 50  0001 C CNN
+	1    8400 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 2150 7200 2500
+Wire Wire Line
+	7200 2500 8200 2500
+Wire Wire Line
+	8200 2500 8200 2550
+Wire Wire Line
+	9350 2150 9350 2450
+Text GLabel 8300 2450 1    50   Input ~ 0
+5v_SB
+Wire Wire Line
+	8300 2550 8300 2450
+Wire Wire Line
+	8400 2550 8300 2550
+Connection ~ 8300 2550
+$Comp
+L Device:R R13
+U 1 1 6036200B
+P 9350 2650
+F 0 "R13" H 9280 2604 50  0000 R CNN
+F 1 "1M" H 9280 2695 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 9280 2650 50  0001 C CNN
+F 3 "~" H 9350 2650 50  0001 C CNN
+	1    9350 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 60362EC4
+P 7200 2650
+F 0 "R12" H 7130 2604 50  0000 R CNN
+F 1 "1M" H 7130 2695 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7130 2650 50  0001 C CNN
+F 3 "~" H 7200 2650 50  0001 C CNN
+	1    7200 2650
+	-1   0    0    1   
+$EndComp
+Connection ~ 7200 2500
+Text GLabel 7200 2800 0    50   Input ~ 0
+M_GND
+Text GLabel 9350 2800 0    50   Input ~ 0
+M_GND
+Wire Wire Line
+	8100 2550 8000 2550
+Wire Wire Line
+	8000 2550 8000 2850
+Wire Wire Line
+	8000 2850 9600 2850
+Wire Wire Line
+	9600 2850 9600 2450
+Wire Wire Line
+	9600 2450 9350 2450
+Connection ~ 9350 2450
+Wire Wire Line
+	9350 2450 9350 2500
+Wire Wire Line
+	8600 2550 9250 2550
+Wire Wire Line
+	9250 2550 9250 2150
+Connection ~ 9250 2150
+Wire Wire Line
+	8500 2400 7100 2400
+Wire Wire Line
+	7100 2400 7100 2150
+Wire Wire Line
+	8500 2400 8500 2550
+Connection ~ 7100 2150
+$Comp
+L Connector:Conn_01x02_Male J11
+U 1 1 6041D191
+P 3350 5550
+F 0 "J11" V 3504 5362 50  0000 R CNN
+F 1 "Conn_01x02_Male" V 3413 5362 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3350 5550 50  0001 C CNN
+F 3 "~" H 3350 5550 50  0001 C CNN
+	1    3350 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 4950 3200 5350
+Wire Wire Line
+	3200 5350 3350 5350
+Wire Wire Line
+	3450 5350 3600 5350
+Wire Wire Line
+	3600 5350 3600 4950
+$EndSCHEMATC
