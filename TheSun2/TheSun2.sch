@@ -1,5 +1,5 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 5
+EELAYER 36 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -12,18 +12,212 @@ Comment1 "https://www.studiopieters.nl"
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_02x20_Odd_Even J1
-U 1 1 5C26120C
-P 5250 3900
-F 0 "J1" H 5300 5017 50  0000 C CNN
-F 1 "Conn_02x20_Odd_Even" H 5300 4926 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5250 3900 50  0001 C CNN
-F 3 "~" H 5250 3900 50  0001 C CNN
-	1    5250 3900
-	1    0    0    -1  
-$EndComp
+Connection ~ 1350 1550
+Connection ~ 1350 1850
+Connection ~ 1350 3150
+Connection ~ 1350 3450
+Connection ~ 1800 1850
+Connection ~ 1800 3450
+Connection ~ 2100 2750
+Connection ~ 2100 4350
+Connection ~ 2450 1550
+Connection ~ 2450 1850
+Connection ~ 2450 3150
+Connection ~ 2450 3450
+Connection ~ 2950 2750
+Connection ~ 2950 4350
+Connection ~ 7250 1450
+Connection ~ 7250 1750
+Connection ~ 7250 3050
+Connection ~ 7250 3350
+Connection ~ 7700 1750
+Connection ~ 7700 3350
+Connection ~ 8000 2650
+Connection ~ 8000 4250
+Connection ~ 8350 1450
+Connection ~ 8350 1750
+Connection ~ 8350 3050
+Connection ~ 8350 3350
+Connection ~ 8850 2650
+Connection ~ 8850 4250
+Wire Wire Line
+	1250 1550 1350 1550
+Wire Wire Line
+	1250 2750 2100 2750
+Wire Wire Line
+	1250 3150 1350 3150
+Wire Wire Line
+	1250 4350 2100 4350
+Wire Wire Line
+	1350 1550 1600 1550
+Wire Wire Line
+	1350 1850 1100 1850
+Wire Wire Line
+	1350 3150 1600 3150
+Wire Wire Line
+	1350 3450 1100 3450
+Wire Wire Line
+	1400 1850 1350 1850
+Wire Wire Line
+	1400 3450 1350 3450
+Wire Wire Line
+	1800 1850 1800 2450
+Wire Wire Line
+	1800 1850 2450 1850
+Wire Wire Line
+	1800 3450 1800 4050
+Wire Wire Line
+	1800 3450 2450 3450
+Wire Wire Line
+	2100 1550 2450 1550
+Wire Wire Line
+	2100 1600 2100 1550
+Wire Wire Line
+	2100 1800 2100 2000
+Wire Wire Line
+	2100 2200 2100 2250
+Wire Wire Line
+	2100 2650 2100 2750
+Wire Wire Line
+	2100 2750 2950 2750
+Wire Wire Line
+	2100 3150 2450 3150
+Wire Wire Line
+	2100 3200 2100 3150
+Wire Wire Line
+	2100 3400 2100 3600
+Wire Wire Line
+	2100 3800 2100 3850
+Wire Wire Line
+	2100 4250 2100 4350
+Wire Wire Line
+	2100 4350 2950 4350
+Wire Wire Line
+	2450 1550 2500 1550
+Wire Wire Line
+	2450 1850 2650 1850
+Wire Wire Line
+	2450 3150 2500 3150
+Wire Wire Line
+	2450 3450 2650 3450
+Wire Wire Line
+	2950 2050 2950 2750
+Wire Wire Line
+	2950 2750 3450 2750
+Wire Wire Line
+	2950 3650 2950 4350
+Wire Wire Line
+	2950 4350 3450 4350
+Wire Wire Line
+	3450 1650 2950 1650
+Wire Wire Line
+	3450 2300 3450 1650
+Wire Wire Line
+	3450 2400 3450 2750
+Wire Wire Line
+	3450 3250 2950 3250
+Wire Wire Line
+	3450 3900 3450 3250
+Wire Wire Line
+	3450 4000 3450 4350
+Wire Wire Line
+	4900 4400 5050 4400
+Wire Wire Line
+	4900 4500 5050 4500
+Wire Wire Line
+	4900 4600 5050 4600
+Wire Wire Line
+	5050 3400 4950 3400
+Wire Wire Line
+	5550 4400 5700 4400
+Wire Wire Line
+	5550 4500 5700 4500
+Wire Wire Line
+	7150 1450 7250 1450
+Wire Wire Line
+	7150 2650 8000 2650
+Wire Wire Line
+	7150 3050 7250 3050
+Wire Wire Line
+	7150 4250 8000 4250
+Wire Wire Line
+	7250 1450 7500 1450
+Wire Wire Line
+	7250 1750 7000 1750
+Wire Wire Line
+	7250 3050 7500 3050
+Wire Wire Line
+	7250 3350 7000 3350
+Wire Wire Line
+	7300 1750 7250 1750
+Wire Wire Line
+	7300 3350 7250 3350
+Wire Wire Line
+	7700 1750 7700 2350
+Wire Wire Line
+	7700 1750 8350 1750
+Wire Wire Line
+	7700 3350 7700 3950
+Wire Wire Line
+	7700 3350 8350 3350
+Wire Wire Line
+	8000 1450 8350 1450
+Wire Wire Line
+	8000 1500 8000 1450
+Wire Wire Line
+	8000 1700 8000 1900
+Wire Wire Line
+	8000 2100 8000 2150
+Wire Wire Line
+	8000 2550 8000 2650
+Wire Wire Line
+	8000 2650 8850 2650
+Wire Wire Line
+	8000 3050 8350 3050
+Wire Wire Line
+	8000 3100 8000 3050
+Wire Wire Line
+	8000 3300 8000 3500
+Wire Wire Line
+	8000 3700 8000 3750
+Wire Wire Line
+	8000 4150 8000 4250
+Wire Wire Line
+	8000 4250 8850 4250
+Wire Wire Line
+	8350 1450 8400 1450
+Wire Wire Line
+	8350 1750 8550 1750
+Wire Wire Line
+	8350 3050 8400 3050
+Wire Wire Line
+	8350 3350 8550 3350
+Wire Wire Line
+	8850 1950 8850 2650
+Wire Wire Line
+	8850 2650 9350 2650
+Wire Wire Line
+	8850 3550 8850 4250
+Wire Wire Line
+	8850 4250 9350 4250
+Wire Wire Line
+	9350 1550 8850 1550
+Wire Wire Line
+	9350 2200 9350 1550
+Wire Wire Line
+	9350 2300 9350 2650
+Wire Wire Line
+	9350 3150 8850 3150
+Wire Wire Line
+	9350 3800 9350 3150
+Wire Wire Line
+	9350 3900 9350 4250
 $Bitmap
 Pos 7900 6750
 Scale 0.300000
@@ -1558,154 +1752,421 @@ A5 84 10 30 05 A6 ED DB A0 73 D0 33 A5 74 3A 9D C2 CE EB 76 5E F8 03 39 C2 F4 F2
 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text Label 1100 1850 2    50   ~ 0
+GPIO-29
+Text Label 1100 3450 2    50   ~ 0
+GPIO-31
+Text Label 4900 4400 2    50   ~ 0
+GPIO-29
+Text Label 4900 4500 2    50   ~ 0
+GPIO-31
+Text Label 4900 4600 2    50   ~ 0
+PWM-33
+Text Label 5050 6000 2    50   ~ 0
+GPIO-31
+Text Label 5700 4500 0    50   ~ 0
+PWM-32
+Text Label 7000 1750 2    50   ~ 0
+PWM-32
+Text Label 7000 3350 2    50   ~ 0
+PWM-33
+Text GLabel 1250 1550 0    50   Input ~ 0
+3.3v
+Text GLabel 1250 2750 0    50   Input ~ 0
+GND
+Text GLabel 1250 3150 0    50   Input ~ 0
+3.3v
+Text GLabel 1250 4350 0    50   Input ~ 0
+GND
+Text GLabel 2500 1550 2    50   Input ~ 0
+5v
+Text GLabel 2500 3150 2    50   Input ~ 0
+5v
+Text GLabel 5050 3000 0    50   Input ~ 0
+3.3v
+Text GLabel 5550 3000 2    50   Input ~ 0
+5v
+Text GLabel 5700 4400 2    50   Input ~ 0
+GND
+Text GLabel 7150 1450 0    50   Input ~ 0
+3.3v
+Text GLabel 7150 2650 0    50   Input ~ 0
+GND
+Text GLabel 7150 3050 0    50   Input ~ 0
+3.3v
+Text GLabel 7150 4250 0    50   Input ~ 0
+GND
+Text GLabel 8400 1450 2    50   Input ~ 0
+5v
+Text GLabel 8400 3050 2    50   Input ~ 0
+5v
 $Comp
-L Transistor_FET:IRLZ44N Q1
-U 1 1 5FA99A27
-P 6600 3250
-F 0 "Q1" H 6804 3296 50  0000 L CNN
-F 1 "IRLZ44N" H 6804 3205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6850 3175 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 6600 3250 50  0001 L CNN
-	1    6600 3250
+L Device:R_Small R5
+U 1 1 00000000
+P 2100 1700
+F 0 "R5" H 2159 1733 50  0000 L CNN
+F 1 "500R" H 2159 1633 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2100 1700 50  0001 C CNN
+F 3 "~" H 2100 1700 50  0001 C CNN
+	1    2100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 00000000
+P 2100 3300
+F 0 "R11" H 2159 3333 50  0000 L CNN
+F 1 "500R" H 2159 3233 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 2100 3300 50  0001 C CNN
+F 3 "~" H 2100 3300 50  0001 C CNN
+	1    2100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 00000000
+P 8000 1600
+F 0 "R2" H 8059 1633 50  0000 L CNN
+F 1 "500R" H 8059 1533 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8000 1600 50  0001 C CNN
+F 3 "~" H 8000 1600 50  0001 C CNN
+	1    8000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 00000000
+P 8000 3200
+F 0 "R8" H 8059 3233 50  0000 L CNN
+F 1 "500R" H 8059 3133 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" H 8000 3200 50  0001 C CNN
+F 3 "~" H 8000 3200 50  0001 C CNN
+	1    8000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D2
+U 1 1 00000000
+P 2100 2100
+F 0 "D2" V 2150 2000 50  0000 R CNN
+F 1 "LED" V 2050 2000 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric" V 2100 2100 50  0001 C CNN
+F 3 "~" V 2100 2100 50  0001 C CNN
+	1    2100 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D4
+U 1 1 00000000
+P 2100 3700
+F 0 "D4" V 2150 3600 50  0000 R CNN
+F 1 "LED" V 2050 3600 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric" V 2100 3700 50  0001 C CNN
+F 3 "~" V 2100 3700 50  0001 C CNN
+	1    2100 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D1
+U 1 1 00000000
+P 8000 2000
+F 0 "D1" V 8050 1900 50  0000 R CNN
+F 1 "LED" V 7950 1900 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric" V 8000 2000 50  0001 C CNN
+F 3 "~" V 8000 2000 50  0001 C CNN
+	1    8000 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D3
+U 1 1 00000000
+P 8000 3600
+F 0 "D3" V 8050 3500 50  0000 R CNN
+F 1 "LED" V 7950 3500 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric" V 8000 3600 50  0001 C CNN
+F 3 "~" V 8000 3600 50  0001 C CNN
+	1    8000 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 00000000
+P 1350 1700
+F 0 "R4" H 1280 1654 50  0000 R CNN
+F 1 "10K" H 1280 1745 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1280 1700 50  0001 C CNN
+F 3 "~" H 1350 1700 50  0001 C CNN
+	1    1350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 00000000
+P 1350 3300
+F 0 "R10" H 1280 3254 50  0000 R CNN
+F 1 "10K" H 1280 3345 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1280 3300 50  0001 C CNN
+F 3 "~" H 1350 3300 50  0001 C CNN
+	1    1350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 00000000
+P 2450 1700
+F 0 "R6" H 2380 1654 50  0000 R CNN
+F 1 "10K" H 2380 1745 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2380 1700 50  0001 C CNN
+F 3 "~" H 2450 1700 50  0001 C CNN
+	1    2450 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 00000000
+P 2450 3300
+F 0 "R12" H 2380 3254 50  0000 R CNN
+F 1 "10K" H 2380 3345 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2380 3300 50  0001 C CNN
+F 3 "~" H 2450 3300 50  0001 C CNN
+	1    2450 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 00000000
+P 7250 1600
+F 0 "R1" H 7180 1554 50  0000 R CNN
+F 1 "10K" H 7180 1645 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7180 1600 50  0001 C CNN
+F 3 "~" H 7250 1600 50  0001 C CNN
+	1    7250 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 00000000
+P 7250 3200
+F 0 "R7" H 7180 3154 50  0000 R CNN
+F 1 "10K" H 7180 3245 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7180 3200 50  0001 C CNN
+F 3 "~" H 7250 3200 50  0001 C CNN
+	1    7250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 00000000
+P 8350 1600
+F 0 "R3" H 8280 1554 50  0000 R CNN
+F 1 "10K" H 8280 1645 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8280 1600 50  0001 C CNN
+F 3 "~" H 8350 1600 50  0001 C CNN
+	1    8350 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 00000000
+P 8350 3200
+F 0 "R9" H 8280 3154 50  0000 R CNN
+F 1 "10K" H 8280 3245 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 8280 3200 50  0001 C CNN
+F 3 "~" H 8350 3200 50  0001 C CNN
+	1    8350 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 00000000
+P 3650 2300
+F 0 "J2" H 3730 2292 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3730 2201 50  0001 L CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 4850 2500 50  0001 C CNN
+F 3 "~" H 3650 2300 50  0001 C CNN
+	1    3650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 00000000
+P 3650 3900
+F 0 "J4" H 3730 3892 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 3730 3801 50  0001 L CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 3650 3900 50  0001 C CNN
+F 3 "~" H 3650 3900 50  0001 C CNN
+	1    3650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 5FAFED54
+P 9550 2200
+AR Path="/5FAFED54" Ref="J4"  Part="1" 
+AR Path="/5FAFED54" Ref="J1"  Part="1" 
+F 0 "J1" H 9630 2192 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9630 2101 50  0001 L CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 9550 2200 50  0001 C CNN
+F 3 "~" H 9550 2200 50  0001 C CNN
+	1    9550 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 00000000
+P 9550 3800
+F 0 "J3" H 9630 3792 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9630 3701 50  0001 L CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 9550 3800 50  0001 C CNN
+F 3 "~" H 9550 3800 50  0001 C CNN
+	1    9550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002H U2
+U 1 1 00000000
+P 1600 1750
+F 0 "U2" V 1849 1750 50  0000 C CNN
+F 1 "2N7002H" V 1940 1750 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1800 1675 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 1600 1750 50  0001 L CNN
+	1    1600 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:2N7002H U6
+U 1 1 00000000
+P 1600 3350
+F 0 "U6" V 1849 3350 50  0000 C CNN
+F 1 "2N7002H" V 1940 3350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1800 3275 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 1600 3350 50  0001 L CNN
+	1    1600 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:2N7002H U4
+U 1 1 00000000
+P 2000 2450
+F 0 "U4" H 2300 2600 50  0000 C CNN
+F 1 "2N7002H" H 2400 2500 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2200 2375 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 2000 2450 50  0001 L CNN
+	1    2000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002H U8
+U 1 1 00000000
+P 2000 4050
+F 0 "U8" H 2300 4200 50  0000 C CNN
+F 1 "2N7002H" H 2400 4100 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2200 3975 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 2000 4050 50  0001 L CNN
+	1    2000 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:IRLZ44N Q2
-U 1 1 5FA9B83C
-P 6600 3800
-F 0 "Q2" H 6804 3846 50  0000 L CNN
-F 1 "IRLZ44N" H 6804 3755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 6850 3725 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf" H 6600 3800 50  0001 L CNN
-	1    6600 3800
+U 1 1 00000000
+P 2850 1850
+F 0 "Q2" H 3054 1896 50  0000 L CNN
+F 1 "IRLR7843" H 3054 1805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 3100 1775 50  0001 L CIN
+F 3 "" H 2850 1850 50  0001 L CNN
+	1    2850 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x06_Male J2
-U 1 1 5FAA5BEE
-P 4700 3600
-F 0 "J2" H 4808 3981 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 4808 3890 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 4700 3600 50  0001 C CNN
-F 3 "~" H 4700 3600 50  0001 C CNN
-	1    4700 3600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x06_Male J3
-U 1 1 5FAAE344
-P 5850 3650
-F 0 "J3" H 5958 4031 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 5958 3940 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 5850 3650 50  0001 C CNN
-F 3 "~" H 5850 3650 50  0001 C CNN
-	1    5850 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5050 3000 4300 3000
-Wire Wire Line
-	4300 3000 4300 3600
-Wire Wire Line
-	4300 3600 4500 3600
-Wire Wire Line
-	5050 3400 4950 3400
-Wire Wire Line
-	4950 3400 4950 3150
-Wire Wire Line
-	4950 3150 4200 3150
-Wire Wire Line
-	4200 3150 4200 3700
-Wire Wire Line
-	4200 3700 4500 3700
-Wire Wire Line
-	5050 4600 4200 4600
-Wire Wire Line
-	4200 4600 4200 3800
-Wire Wire Line
-	4200 3800 4500 3800
-Wire Wire Line
-	5550 4500 5550 4450
-Wire Wire Line
-	5550 4450 4300 4450
-Wire Wire Line
-	4300 4450 4300 3900
-Wire Wire Line
-	4300 3900 4500 3900
-Wire Wire Line
-	6050 3650 6200 3650
-Wire Wire Line
-	6200 3650 6200 3000
-Wire Wire Line
-	6200 3000 5550 3000
-Wire Wire Line
-	5550 3200 6300 3200
-Wire Wire Line
-	6300 3750 6050 3750
-Wire Wire Line
-	6300 3200 6300 3450
-Wire Wire Line
-	6050 3850 6250 3850
-Wire Wire Line
-	6250 3850 6250 3250
-Wire Wire Line
-	6250 3250 6400 3250
-Wire Wire Line
-	6400 3800 6400 3950
-Wire Wire Line
-	6400 3950 6050 3950
-Wire Wire Line
-	6700 3450 6300 3450
-Connection ~ 6300 3450
-Wire Wire Line
-	6300 3750 6300 4000
-Wire Wire Line
-	6300 4000 6700 4000
-Connection ~ 6300 3750
-Wire Wire Line
-	6300 4400 6300 4000
-Connection ~ 6300 4000
-Wire Wire Line
-	6300 4400 7350 4400
-Wire Wire Line
-	6700 3600 7200 3600
-Wire Wire Line
-	7200 3050 6700 3050
-$Comp
-L Connector:Screw_Terminal_01x02 J4
-U 1 1 5FAFED54
-P 7550 3550
-F 0 "J4" H 7630 3542 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 7630 3451 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 7550 3550 50  0001 C CNN
-F 3 "~" H 7550 3550 50  0001 C CNN
-	1    7550 3550
+L Transistor_FET:IRLZ44N Q4
+U 1 1 00000000
+P 2850 3450
+F 0 "Q4" H 3054 3496 50  0000 L CNN
+F 1 "IRLR7843" H 3054 3405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 3100 3375 50  0001 L CIN
+F 3 "" H 2850 3450 50  0001 L CNN
+	1    2850 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J5
-U 1 1 5FAFF9F4
-P 7550 4300
-F 0 "J5" H 7630 4292 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 7630 4201 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 7550 4300 50  0001 C CNN
-F 3 "~" H 7550 4300 50  0001 C CNN
-	1    7550 4300
+L Transistor_FET:2N7002H U1
+U 1 1 00000000
+P 7500 1650
+F 0 "U1" V 7749 1650 50  0000 C CNN
+F 1 "2N7002H" V 7840 1650 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7700 1575 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 7500 1650 50  0001 L CNN
+	1    7500 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:2N7002H U5
+U 1 1 00000000
+P 7500 3250
+F 0 "U5" V 7749 3250 50  0000 C CNN
+F 1 "2N7002H" V 7840 3250 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7700 3175 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 7500 3250 50  0001 L CNN
+	1    7500 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:2N7002H U3
+U 1 1 00000000
+P 7900 2350
+F 0 "U3" H 8200 2500 50  0000 C CNN
+F 1 "2N7002H" H 8300 2400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8100 2275 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 7900 2350 50  0001 L CNN
+	1    7900 2350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 3650 6300 3750
-Wire Wire Line
-	6300 3450 6300 3650
-Connection ~ 6300 3650
-Wire Wire Line
-	7350 3650 6300 3650
-Wire Wire Line
-	7200 4300 7350 4300
-Wire Wire Line
-	7200 3600 7200 4300
-Wire Wire Line
-	7200 3550 7350 3550
-Wire Wire Line
-	7200 3050 7200 3550
+$Comp
+L Transistor_FET:2N7002H U7
+U 1 1 00000000
+P 7900 3950
+F 0 "U7" H 8200 4100 50  0000 C CNN
+F 1 "2N7002H" H 8300 4000 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8100 3875 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/2N7002H.pdf" H 7900 3950 50  0001 L CNN
+	1    7900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRLZ44N Q1
+U 1 1 5FA99A27
+P 8750 1750
+AR Path="/5FA99A27" Ref="Q1"  Part="1" 
+AR Path="/5FA99A27" Ref="Q1"  Part="1" 
+F 0 "Q1" H 8954 1796 50  0000 L CNN
+F 1 "IRLR7843" H 8954 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 9000 1675 50  0001 L CIN
+F 3 "" H 8750 1750 50  0001 L CNN
+	1    8750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRLZ44N Q3
+U 1 1 00000000
+P 8750 3350
+F 0 "Q3" H 8954 3396 50  0000 L CNN
+F 1 "IRLR7843" H 8954 3305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 9000 3275 50  0001 L CIN
+F 3 "" H 8750 3350 50  0001 L CNN
+	1    8750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J1
+U 1 1 5C26120C
+P 5250 3900
+AR Path="/5C26120C" Ref="J1"  Part="1" 
+AR Path="/5C26120C" Ref="J5"  Part="1" 
+F 0 "J5" H 5300 5017 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 5300 4926 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5250 3900 50  0001 C CNN
+F 3 "~" H 5250 3900 50  0001 C CNN
+	1    5250 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
